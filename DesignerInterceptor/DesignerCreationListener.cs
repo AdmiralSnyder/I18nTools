@@ -11,7 +11,7 @@ namespace DesignerInterceptor
     {
         public void VsTextViewCreated(IVsTextView textViewAdapter)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
     }
 }
