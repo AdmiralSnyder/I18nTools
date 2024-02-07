@@ -52,6 +52,7 @@ public class I18nTypeDescriptorFilterService : ITypeDescriptorFilterService
                     prop,
                     nonLoc);
                 properties[propName] = prop;
+                // TODO auf die Tag-Property gucken, und die raushauen, wenn sie ein string ist (und keine GUID)
             }
         }
         return res;

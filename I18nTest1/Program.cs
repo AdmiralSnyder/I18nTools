@@ -1,8 +1,4 @@
-﻿using BaseFormLib;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
 
 namespace I18nTest1
@@ -17,7 +13,7 @@ namespace I18nTest1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BaseForm5());
+            Application.Run(new Form1());
         }
     }
 }
